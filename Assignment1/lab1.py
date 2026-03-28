@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 def main():
-    csv_path = Path(__file__).with_name('Football_players.csv')
+    csv_path = Path(__file__).resolve().parents[1] / 'Football_players.csv'
     data = np.genfromtxt(csv_path, delimiter=',',skip_header=1,usecols=(4,8),dtype=None,encoding='latin-1')
     #age is x and salary is y
     x = np.array(data[:,0])
