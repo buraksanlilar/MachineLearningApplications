@@ -9,6 +9,7 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - `Assignment1/`: Simple Linear Regression implementation and report-oriented documentation.
 - `Assignment2/`: Simple Linear Regression with train/test split and feature comparison.
 - `Assignment3/`: Multiple Linear Regression and MSE-based evaluation.
+- `Assignment4/`: Repeated validation and k-fold cross-validation for Multiple Linear Regression.
 
 ## Completed So Far
 
@@ -20,6 +21,7 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - Manual implementation of Multiple Linear Regression coefficients using normal equation
 - Mean Squared Error (MSE) evaluation on test and full data
 - Effect analysis of adding a random extra feature column
+- Repeated validation with shuffling and 8-fold cross-validation on the same regression setup
 
 ## Assignment Summary
 
@@ -27,6 +29,7 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - `Assignment1`: `Age -> Salary` simple linear regression (manual coefficient calculation + plot).
 - `Assignment2`: Two simple regression models (`Age -> Salary`, `Height -> Salary`) with train/test split visualization.
 - `Assignment3`: Multiple regression with `Age`, `Height`, `Mental`, `Skill` to predict `Salary`, then MSE comparison after adding a random column.
+- `Assignment4`: Manual validation and 8-fold cross-validation for the same multiple regression model, with repeated shuffling and MSE comparison.
 
 ## Tech Stack
 
@@ -43,6 +46,13 @@ Example:
 ```bash
 cd Assignment3
 python3 lab3.py
+```
+
+For Assignment4:
+
+```bash
+cd Assignment4
+python3 lab4.py
 ```
 
 ## Goal of This Repository
