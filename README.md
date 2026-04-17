@@ -10,6 +10,7 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - `Assignment2/`: Simple Linear Regression with train/test split and feature comparison.
 - `Assignment3/`: Multiple Linear Regression and MSE-based evaluation.
 - `Assignment4/`: Repeated validation and k-fold cross-validation for Multiple Linear Regression.
+- `Assignment5/`: Manual vs scikit-learn Linear/Ridge/Lasso comparison with visualization.
 
 ## Completed So Far
 
@@ -22,6 +23,9 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - Mean Squared Error (MSE) evaluation on test and full data
 - Effect analysis of adding a random extra feature column
 - Repeated validation with shuffling and 8-fold cross-validation on the same regression setup
+- Ridge and Lasso regularization comparison against linear regression
+- scikit-learn based regression workflow integrated with manual implementations
+- Centralized dataset usage from repository root and assignment-specific plot output
 
 ## Assignment Summary
 
@@ -30,12 +34,14 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - `Assignment2`: Two simple regression models (`Age -> Salary`, `Height -> Salary`) with train/test split visualization.
 - `Assignment3`: Multiple regression with `Age`, `Height`, `Mental`, `Skill` to predict `Salary`, then MSE comparison after adding a random column.
 - `Assignment4`: Manual validation and 8-fold cross-validation for the same multiple regression model, with repeated shuffling and MSE comparison.
+- `Assignment5`: Manual multiple regression and ridge alongside scikit-learn `LinearRegression`, `Ridge`, and `Lasso`, including saved comparison plots.
 
 ## Tech Stack
 
 - Python 3
 - NumPy
 - Matplotlib
+- scikit-learn
 
 ## How to Run
 
@@ -54,6 +60,17 @@ For Assignment4:
 cd Assignment4
 python3 lab4.py
 ```
+
+For Assignment5:
+
+```bash
+python3 Assignment5/lab5.py
+```
+
+Notes for Assignment5:
+
+- Uses the shared dataset at `Football_players.csv` in the repository root.
+- Saves plot output to `Assignment5/lab5_plots.png`.
 
 ## Goal of This Repository
 
