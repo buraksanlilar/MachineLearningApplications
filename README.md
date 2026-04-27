@@ -11,6 +11,7 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - `Assignment3/`: Multiple Linear Regression and MSE-based evaluation.
 - `Assignment4/`: Repeated validation and k-fold cross-validation for Multiple Linear Regression.
 - `Assignment5/`: Manual vs scikit-learn Linear/Ridge/Lasso comparison with visualization.
+- `Assignment6/`: Manual polynomial regression with degree 2 and degree 3 models.
 
 ## Completed So Far
 
@@ -26,6 +27,7 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - Ridge and Lasso regularization comparison against linear regression
 - scikit-learn based regression workflow integrated with manual implementations
 - Centralized dataset usage from repository root and assignment-specific plot output
+- Manual polynomial regression with degree 2 and degree 3 feature expansion
 
 ## Assignment Summary
 
@@ -35,6 +37,7 @@ It includes assignment implementations, lab exercises, and supporting notes as t
 - `Assignment3`: Multiple regression with `Age`, `Height`, `Mental`, `Skill` to predict `Salary`, then MSE comparison after adding a random column.
 - `Assignment4`: Manual validation and 8-fold cross-validation for the same multiple regression model, with repeated shuffling and MSE comparison.
 - `Assignment5`: Manual multiple regression and ridge alongside scikit-learn `LinearRegression`, `Ridge`, and `Lasso`, including saved comparison plots.
+- `Assignment6`: Manual polynomial regression for `Age` and `Skill` features to predict `Salary`, with degree 2 and degree 3 comparisons.
 
 ## Tech Stack
 
@@ -71,6 +74,12 @@ Notes for Assignment5:
 
 - Uses the shared dataset at `Football_players.csv` in the repository root.
 - Saves plot output to `Assignment5/lab5_plots.png`.
+
+Notes for Assignment6:
+
+- Uses the shared dataset at `Football_players.csv` in the repository root.
+- Reads the dataset from the assignment script using a path relative to the project root.
+- Includes `Assignment6/README.md` for the assignment-specific explanation and run instructions.
 
 ## Goal of This Repository
 
